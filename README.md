@@ -1,0 +1,2 @@
+# qiita-zenn-trend-metadata-fetcher-lambda-docker
+このLambda関数は、QiitaとZennのトレンド記事のメタデータをAPIを使用してフェッチし、S3に保存するために作成されました。Dockerを使用して開発されており、Dockerfileとdocker-composeが含まれます。関数は、定期的にトリガーされ、フェッチされたメタデータをS3にアップロードします。メタデータには、記事のタイトル、著者、投稿日時、URLなどが含まれます。S3バケットの設定や、APIキーの管理については、この関数を使用する前にドキュメンテーションを確認してください。
